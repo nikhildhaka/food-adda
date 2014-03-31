@@ -1,0 +1,61 @@
+body{background: url('../img/metbkk_bkg_nahm_restaurant.jpg');
+     background-size: cover;
+     font-family: Arial;
+	}
+
+#base
+{
+	position: absolute;
+	top: 170px;
+	left: 240px;
+	width: 900px;
+	height: 400px;
+	background-color: #102E37;
+	opacity: 0.95;
+}
+
+#innerContent
+{
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	color: #FCD271;
+	font-size: 50px;
+}
+
+#para
+{
+	color: #F78D3F;
+}
+
+#header
+{
+	color: #FCD271;
+	position: absolute;
+	top: 25px;
+	left: 655px;
+	font-size: 20px;
+}
+
+#topUsers
+{
+	background-color: #F78D3F;
+	position: absolute;
+	top: 65px;
+	left: 600px;
+	width: 265px;
+	height: 305px;
+}
+
+.tabledata
+{
+	padding:20px;
+	font-weight: bold;
+	color: #102E37;
+}
+
+.money
+{
+	color: #102E37;
+	font-weight: bold;
+}

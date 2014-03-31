@@ -1,0 +1,289 @@
+body{background: url('../img/metbkk_bkg_nahm_restaurant.jpg');
+     background-size: cover;
+     font-family: Arial;
+	}
+
+ul.nav {
+    list-style: none;
+    display: block;
+    width: 200px;
+    position: relative;
+    top: 60px;
+    left: 100px;
+    padding: 45px 0 60px 0;
+    background: url('../img/shad2.png') no-repeat;
+    -webkit-background-size: 50% 100%;
+    -moz-background-size: 50% 100%;
+}
+
+ul.nav li
+{
+    padding-bottom: 5px;
+}
+
+ul.nav li a {
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    background: #A85111 url('../img/border.png') no-repeat;
+    color: #102E37 ;
+    padding: 7px 15px 7px 15px;
+    height: 25px;
+    font-family: 'Roboto Slab', serif;
+    -webkit-border-top-right-radius: 15px;
+    -webkit-border-bottom-right-radius: 15px;
+    -moz-border-top-right-radius: 15px;
+    -moz-border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 135px;
+    display: block;
+    text-decoration: none;
+    -webkit-box-shadow: 2px 2px 4px #0E0C0C;
+    -moz-box-shadow: 2px 2px 4px #0E0C0C;
+    box-shadow: 2px 2px 4px #0E0C0C;
+}
+
+ul.nav li a:hover {
+    background: #FCD271 url('../img/border.png') no-repeat;
+    color: #163E57;
+    padding: 7px 15px 7px 30px;
+}
+
+#main_menu
+{
+    position: absolute;
+    top: 160px;
+    left: 290px;
+    width: 715px;
+    height: 405px;
+    padding: 20px;
+    background:  url('../img/shad2.png') no-repeat, url('../img/shad1.png') no-repeat;
+    border-left: 1px solid #554E4E;
+    background-position: 0% 45% ,100% 45% ;
+    background-size: 10% 125%;
+    background-color:#102E37;
+    overflow: auto;
+
+
+}
+
+#cart
+{
+    position: absolute;
+    top: 215px;
+    left: 1070px;
+    width: 270px;
+    height: 322px;
+    background: #A85111;
+    background-size: 245px 350px;
+    overflow-y: auto;
+    overflow-x: hidden; 
+}
+
+#lItems
+{
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    color: #52A4C4;
+    font-size: 22px;
+    font-family: 'Titillium Web', sans-serif;
+    }
+
+#lPriceHead
+{
+    position: absolute;
+    top: 10px;
+    left: 233px;
+    color: #52A4C4;
+    font-size: 22px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+#rItems
+{
+    position: absolute;
+    top: 10px;
+    left: 425px;
+    color: #52A4C4;
+    font-size: 22px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+#rPriceHead
+{
+    position: absolute;
+    top: 10px;
+    left: 580px;
+    color: #52A4C4;
+    font-size: 22px;
+    font-family: 'Titillium Web', sans-serif;
+}
+.lefti
+{
+    position: absolute;
+    left:50px;
+    cursor: pointer;
+}
+
+.leftl
+{
+    position: absolute;
+    left: 25px;
+    width: 140px;
+    cursor: pointer;
+    color:#F78D3F;
+    font-size: 19px;
+}
+
+.righti
+{
+    position: absolute;
+    left: 380px;
+    cursor: pointer;
+
+}
+
+.rightl 
+{
+    position: absolute;
+    left: 400px;
+    width: 140px;
+    cursor: pointer;
+    color:#F78D3F;
+    font-size: 19px;
+}
+
+.leftPrice
+{
+    position: absolute;
+    left: 248px;
+    color: #B2C1DD;
+}
+
+.rightPrice
+{
+    position: absolute;
+    left: 600px;
+    color: #B2C1DD
+}
+
+input[type="checkbox"] {
+    display:none;
+}
+input[type="checkbox"] + label {
+    padding: 0 0 0 25px;
+}
+input[type="checkbox"] + label:before {
+    content:'';
+    display:block;
+    width:19px;
+    height:19px;
+    position:absolute;
+    left:0;
+    top:50%;
+    margin:-9px 0 0 0;
+    background:url(../img/check_radio_sheet.png) 0 0 no-repeat;
+    cursor:pointer;
+}
+input[type="checkbox"] + label:hover:before {
+    background:url(../img/check_radio_sheet.png) -19px 0 no-repeat;
+}
+input[type="checkbox"]:checked + label:before {
+    background:url(../img/check_radio_sheet.png) -38px 0 no-repeat;
+}
+
+#cart_heading
+{
+    position:absolute;
+    top:190px;
+    left:1070px;
+    width:270px;
+    height: 25px;
+    padding-top: 2px;
+    background-color: #102E37;
+    color:#52A4C4;
+}
+
+#tbl_cart
+{
+    padding: 5px;
+    width: 220px;
+    color: rgba(255, 255, 255, 0.77);
+}
+table {table-layout: fixed;}
+
+.button_example{
+border:1px solid #393B3E;-webkit-box-shadow: #737373 0px 1px 5px ;-moz-box-shadow: #737373 0px 1px 5px ; box-shadow: #737373 0px 1px 5px ; -webkit-border-radius: 23px; -moz-border-radius: 23px;border-radius: 23px;font-size:14px;font-family:arial, helvetica, sans-serif; padding: 10px 20px 10px 20px; text-decoration:none; display:inline-block;font-weight:bold; color: #B8B8B8;
+  background-image: -webkit-linear-gradient(top, #605680, #132835);
+  background-image: -moz-linear-gradient(top, #605680, #132835);
+  background-image: -o-linear-gradient(top, #605680, #132835);
+  background-image: linear-gradient(top, #605680, #132835); 
+
+ position: absolute;
+ top: 580px;
+ left: 1077px;
+}
+
+.button_example:hover{
+ border:1px solid #393B3E;
+ background-image: -webkit-linear-gradient(top, #5F4C96, #554685); 
+ background-image: -moz-linear-gradient(top, #5F4C96, #554685); 
+ background-image: -o-linear-gradient(top, #5F4C96, #554685); 
+ background-image: linear-gradient(top, #5F4C96, #554685); 
+}
+
+#total
+{
+    width: 270px;
+    height: 37px;
+    position: absolute;
+    left: 1070px;
+    top: 537px;
+    padding-top: 3px;
+    z-index: 5;
+    color: #102E37;
+    background-color: #FCD271;
+}
+
+#hname
+{
+    position: absolute;
+    top: 125px;
+    left: 530px;
+    height: 25px;
+    padding-left: 110px;
+    padding-right: 110px;
+    padding-top: 10px;
+    color: #8A5011;
+    font-weight: bold;
+    background-color: #FCD271;
+}
+
+#modal1_offer
+{
+    width: 459px;
+top: 100px;
+left: 425px;
+display: block;
+height: 100px;
+min-height: 100px;
+overflow: hidden;
+}
+
+#landing
+{
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    width: 480px;
+    text-align: center;
+    color: #36429B;
+}
+
+#dcharges
+{
+    position: absolute;
+    top: 3px;
+    left: 10px;
+}

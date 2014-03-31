@@ -1,0 +1,245 @@
+/*
+#big
+{
+	position: absolute;
+	top: 295px;
+	right: 50px;
+	height: 323px;
+	width: 895px;
+}
+
+#restro1
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 159px;
+	width: 295px;
+}
+
+.hover_content
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 155px;
+	width: 291px;
+	color: #00a1d2;
+	visibility: hidden;
+	border: 2px solid #00a1d2;
+}
+#restro2
+{
+	position: absolute;
+	top: 0px;
+	left: 300px;
+	height: 159px;
+	width: 295px;
+}
+
+#restro3
+{
+	position: absolute;
+	top: 0px;
+	left: 600px;
+	width: 159px;
+	height: 295px;
+}
+
+#restro4
+{
+	position: absolute;
+	top: 164px;
+	left: 0px;
+	height: 159px;
+	width: 295px;
+}
+
+#restro5
+{
+	position: absolute;
+	top: 164px;
+	left: 300px;
+	height: 159px;
+	width: 295px;
+}
+
+#restro6
+{
+	position: absolute;
+	top: 164px;
+	left: 600px;
+	height: 159px;
+	width: 295px;
+}
+
+.restro_img
+{
+	height: 159px;
+	width: 295px;
+}
+
+.name
+{
+	text-align: center;
+	padding-top: 50px;
+}
+*/
+#bar
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 50px;
+	width: 100%;
+	background-color: #FCD271;
+}
+
+#footer
+{
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	height: 50px;
+	width: 100%;
+	background-color: #FCD271;
+}
+
+#footer>ul
+{
+	
+	position: absolute;
+	top: -14px;
+	left: 105px;
+	height: 50px;
+	width: 1080px;
+	background: #102E37;
+}
+
+#footer>ul>li>a
+{
+	position: relative;
+	top: 5px;
+	text-decoration: none;
+	font-size: 17px;
+}
+.hlink
+{
+	color: #F78D3F;
+}
+
+#offer
+{
+	position: absolute;
+	top: 330px;
+	left: 165px;
+	height: 212px;
+	width: 212px;
+	-moz-border-radius: 110px;
+	-webkit-border-radius: 110px;
+	border-radius: 110px;
+	overflow: hidden;
+	background: #00a1d2;
+	z-index: 20;
+	border:solid 1px #00a1d2;
+	box-shadow: rgb(12, 11, 12) 1px 3px 20px;
+}
+
+#offer:hover
+{	
+	-webkit-box-shadow: #FFFFFF 0px 3px 85px;
+    -moz-box-shadow: #FFFFFF 0px 3px 85px;
+    box-shadow: #FFFFFF 0px 3px 85px;
+}
+
+#login_error
+{
+	position: absolute;
+	top: 15px;
+	left: 200px;
+	height:25px;
+	width:130px;
+	color: rgb(233, 84, 84);
+}
+
+#burst-12 {
+    background: rgb(124, 121, 124);
+	width: 190px;
+	height: 190px;
+	position: absolute;
+	top: 340px;
+	text-align: center;
+	left: 175px;
+	-webkit-box-shadow: rgb(139, 137, 139) 0px 0px 28px;
+    -moz-box-shadow: rgb(139, 137, 139) 0px 0px 28px;
+    box-shadow: rgb(139, 137, 139) 0px 0px 28px;
+}
+#burst-12:before, #burst-12:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#burst-12:before {
+    -webkit-transform: rotate(30deg);
+       -moz-transform: rotate(30deg);
+        -ms-transform: rotate(30deg);
+         -o-transform: rotate(30deg);
+    width: 190px;
+	background: rgb(77, 116, 146);
+	height: 190px;
+	box-shadow: rgb(77, 116, 146) 0px 0px 28px
+}
+#burst-12:after {
+    -webkit-transform: rotate(60deg);
+       -moz-transform: rotate(60deg);
+        -ms-transform: rotate(60deg);
+         -o-transform: rotate(60deg);
+    height: 190px;
+	background: rgb(206, 139, 39);
+	width: 190px;
+	box-shadow: rgb(206, 139, 39) 0px 0px 28px
+}
+
+#captcha
+{
+	position: absolute;
+	top: 0px;
+	left: 35px;
+}
+
+#captcha_input
+{
+	position: absolute;
+	top: 90px;
+	left: 35px;
+	width: 130px;
+	text-align: center;
+}
+
+#change_captcha
+{
+	position: absolute;
+	top: 97px;
+	left: 180px;
+}
+
+#fb
+{
+	position: absolute;
+	top: 25px;
+	left: 25px;
+	height: 100px;
+	width:100px;
+	visibility: hidden;
+}
+
+#gmail
+{
+	position: absolute;
+	top: 25px;
+	left: 150px;
+	height: 100px;
+	width:100px;
+	visibility: hidden;
+}
